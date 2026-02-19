@@ -7,27 +7,27 @@ public class VirusAI : MonoBehaviour
     public float gravity = -25f;
     public float stopDistance = 1f;
 
-    private Transform player;
-    private CharacterController controller;
-    private Vector3 velocity;
+    private Transform _player;
+    private CharacterController _controller;
+    private Vector3 _velocity;
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
-        player = GameObject.FindGameObjectWithTag(tag: "Player")?.transform;
-        velocity = Vector3.zero;
+        _controller = GetComponent<CharacterController>();
+        _player = GameObject.FindGameObjectWithTag(tag: "Player")?.transform;
+        _velocity = Vector3.zero;
     }
 
     void Update()
     {
-        if (!player) return;
+        if (!_player) return;
 
-        if (controller.isGrounded && velocity.y < 0f)
-            velocity.y = -2f;
+        if (_controller.isGrounded && _velocity.y < 0f)
+            _velocity.y = -2f;
 
-        velocity.y += gravity * Time.deltaTime;
+        _velocity.y += gravity * Time.deltaTime;
 
-        Vector3 toPlayer = player.position - transform.position;
+        Vector3 toPlayer = _player.position - transform.position;
         toPlayer.y = 0f;
 
         Vector3 move = Vector3.zero;
@@ -39,7 +39,7 @@ public class VirusAI : MonoBehaviour
             move = dir * moveSpeed;
         }
 
-        Vector3 finalMove = (move + Vector3.up * velocity.y) * Time.deltaTime;
-        controller.Move(motion: finalMove);
+        Vector3 finalMove = (move + Vector3.up * _velocity.y) * Time.deltaTime;
+        _controller.Move(motion: finalMove);
     }
 }

@@ -4,22 +4,22 @@ using UnityEngine;
 public class Virus : MonoBehaviour
 {
     public float health = 30f;
-    private bool isDead = false;
-    VirusDeathExplosion explosion;
+    private bool _isDead;
+    VirusDeathExplosion _explosion;
 
     void Start()
     {
-        explosion = GetComponent<VirusDeathExplosion>();
+        _explosion = GetComponent<VirusDeathExplosion>();
     }
 
     public void TakeDamage(float damage)
     {
-        if (isDead) return;
+        if (_isDead) return;
 
         health -= damage;
 
-        if (explosion)
-            explosion.Hit();
+        if (_explosion)
+            _explosion.Hit();
 
         if (health <= 0f)
             Die();
@@ -27,11 +27,11 @@ public class Virus : MonoBehaviour
 
     void Die()
     {
-        if (isDead) return;
-        isDead = true;
+        if (_isDead) return;
+        _isDead = true;
 
-        if (explosion)
-            explosion.Explode();
+        if (_explosion)
+            _explosion.Explode();
 
         WaveManager.Instance?.EnemyDied();
 

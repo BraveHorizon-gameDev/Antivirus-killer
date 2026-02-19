@@ -6,7 +6,7 @@ public class CameraLook : MonoBehaviour
     public Transform playerBody;
     public float minPitch = -89f;
     public float maxPitch = 89f;
-    private float pitch = 0f;
+    private float _pitch;
     
     void Start()
     {
@@ -21,11 +21,11 @@ public class CameraLook : MonoBehaviour
         float mouseY = Input.GetAxis(axisName: "Mouse Y") * mouseSensitivity * Time.deltaTime;
 
         // Adjust pitch and clamp it
-        pitch -= mouseY;
-        pitch = Mathf.Clamp(value: pitch, min: minPitch, max: maxPitch);
+        _pitch -= mouseY;
+        _pitch = Mathf.Clamp(value: _pitch, min: minPitch, max: maxPitch);
 
         // Apply rotations
-        transform.localRotation = Quaternion.Euler(x: pitch, y: 0f, z: 0f);
+        transform.localRotation = Quaternion.Euler(x: _pitch, y: 0f, z: 0f);
         playerBody.Rotate(eulers: Vector3.up * mouseX);
     }
 }

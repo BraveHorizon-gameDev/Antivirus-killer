@@ -5,13 +5,13 @@ public class PauseManager : MonoBehaviour
 {
     public GameObject pausePanel;
 
-    private bool isPaused = false;
+    private bool _isPaused;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused)
+            if (_isPaused)
                 Resume();
             else
                 Pause();
@@ -22,7 +22,7 @@ public class PauseManager : MonoBehaviour
     {
         pausePanel.SetActive(true);
         Time.timeScale = 0f;
-        isPaused = true;
+        _isPaused = true;
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -33,7 +33,7 @@ public class PauseManager : MonoBehaviour
     {
         pausePanel.SetActive(false);
         Time.timeScale = 1f;
-        isPaused = false;
+        _isPaused = false;
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
