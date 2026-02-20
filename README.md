@@ -64,5 +64,5 @@ Game Design, Programming and Integration — **Brave Horizon**
 
 ## Status
 
-Version 1.0 — Released  
+Version 1.1 — Released  
 Future updates may include new environments, enemies, and gameplay improvements.
