@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraLook : MonoBehaviour
 {
-    public float mouseSensitivity = 600f;
+    private float _mouseSensitivity = 500f;
     public Transform playerBody;
     public float minPitch = -89f;
     public float maxPitch = 89f;
@@ -17,8 +17,8 @@ public class CameraLook : MonoBehaviour
     void Update()
     {
         // Mouse look input
-        float mouseX = Input.GetAxis(axisName: "Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis(axisName: "Mouse Y") * mouseSensitivity * Time.deltaTime;
+        float mouseX = Input.GetAxis(axisName: "Mouse X") * _mouseSensitivity * Time.deltaTime;
+        float mouseY = Input.GetAxis(axisName: "Mouse Y") * _mouseSensitivity * Time.deltaTime;
 
         // Adjust pitch and clamp it
         _pitch -= mouseY;

@@ -6,7 +6,7 @@ public class PlayerRaycast : MonoBehaviour
     public CameraShake cameraShake;
     public LineRenderer shotLine;
     public float lineDuration = 0.05f;
-    public float rayDistance = 50f;
+    private float _rayDistance = 167f;
 
     public LayerMask virusLayer;
     public float damage = 10f;
@@ -48,7 +48,7 @@ public class PlayerRaycast : MonoBehaviour
             direction: playerCamera.transform.forward
         );
 
-        if (Physics.Raycast(ray: ray, hitInfo: out RaycastHit hit, maxDistance: rayDistance, layerMask: virusLayer))
+        if (Physics.Raycast(ray: ray, hitInfo: out RaycastHit hit, maxDistance: _rayDistance, layerMask: virusLayer))
         {
             Virus virus = hit.collider.GetComponent<Virus>();
             if (virus != null)
@@ -59,9 +59,9 @@ public class PlayerRaycast : MonoBehaviour
 
         Vector3 start = playerCamera.transform.position;
         Vector3 direction = playerCamera.transform.forward;
-        Vector3 end = start + direction * rayDistance;
+        Vector3 end = start + direction * _rayDistance;
 
-        if (Physics.Raycast(origin: start, direction: direction, hitInfo: out RaycastHit hitSecond, maxDistance: rayDistance, layerMask: virusLayer))
+        if (Physics.Raycast(origin: start, direction: direction, hitInfo: out RaycastHit hitSecond, maxDistance: _rayDistance, layerMask: virusLayer))
         {
             end = hitSecond.point;
 

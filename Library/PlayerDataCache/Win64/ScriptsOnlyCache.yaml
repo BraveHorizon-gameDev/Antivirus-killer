@@ -81,10 +81,19 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: MenuManager
+    methodName: LoadMotherboard
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: BackToMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
     methodName: BackToMenu
   - assembly: Assembly-CSharp
     fullTypeName: MenuManager
     methodName: StartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: LoadStick
   - assembly: Assembly-CSharp
     fullTypeName: MenuManager
     methodName: QuitGame
@@ -92,23 +101,41 @@ ScriptsOnlyBuild:
     fullTypeName: MenuManager
     methodName: ShowCredits
   - assembly: Assembly-CSharp
-    fullTypeName: GameOverButtons
+    fullTypeName: PauseManager
     methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: PauseManager
     methodName: LoadMenu
   - assembly: Assembly-CSharp
+    fullTypeName: PauseManager
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOverButtons
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOverButtons
+    methodName: BackToMenu
+  - assembly: Assembly-CSharp
     fullTypeName: GameOverButtons
     methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseManager
+    methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: PauseManager
     methodName: Resume
   - assembly: Assembly-CSharp
     fullTypeName: GameOverButtons
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameOverButtons
     methodName: BackToMenu
   - assembly: Assembly-CSharp
-    fullTypeName: PauseManager
-    methodName: QuitGame
+    fullTypeName: GameOverButtons
+    methodName: RestartGame
   sceneClasses:
     Assets/Scenes/MOTHERBOARD ARENA.unity:
     - Class: 1
@@ -148,57 +175,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1610}
+      Script: {instanceID: 1570}
     - Class: 114
-      Script: {instanceID: 1822}
+      Script: {instanceID: 1614}
     - Class: 114
-      Script: {instanceID: 1850}
+      Script: {instanceID: 1826}
     - Class: 114
-      Script: {instanceID: 1952}
+      Script: {instanceID: 1854}
     - Class: 114
-      Script: {instanceID: 2400}
+      Script: {instanceID: 1956}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2644}
     - Class: 114
-      Script: {instanceID: 2940}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 3262}
+      Script: {instanceID: 2944}
     - Class: 114
-      Script: {instanceID: 4904}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 5098}
+      Script: {instanceID: 4908}
     - Class: 114
-      Script: {instanceID: 5324}
+      Script: {instanceID: 5102}
     - Class: 114
-      Script: {instanceID: 5400}
+      Script: {instanceID: 5328}
     - Class: 114
-      Script: {instanceID: 5410}
+      Script: {instanceID: 5404}
     - Class: 114
-      Script: {instanceID: 5720}
+      Script: {instanceID: 5414}
     - Class: 114
-      Script: {instanceID: 6002}
+      Script: {instanceID: 5724}
     - Class: 114
-      Script: {instanceID: 6190}
+      Script: {instanceID: 6192}
     - Class: 114
-      Script: {instanceID: 6534}
+      Script: {instanceID: 6536}
     - Class: 114
-      Script: {instanceID: 6558}
+      Script: {instanceID: 6560}
     - Class: 114
-      Script: {instanceID: 6848}
+      Script: {instanceID: 6850}
     - Class: 114
-      Script: {instanceID: 6986}
+      Script: {instanceID: 6988}
     - Class: 114
-      Script: {instanceID: 7212}
+      Script: {instanceID: 7214}
     - Class: 114
-      Script: {instanceID: 7482}
+      Script: {instanceID: 7484}
     - Class: 114
-      Script: {instanceID: 7606}
-    - Class: 114
-      Script: {instanceID: 7890}
+      Script: {instanceID: 7608}
     - Class: 114
       Script: {instanceID: 8284}
+    - Class: 114
+      Script: {instanceID: 24368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -247,31 +274,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1610}
+      Script: {instanceID: 1570}
     - Class: 114
-      Script: {instanceID: 2264}
+      Script: {instanceID: 1614}
     - Class: 114
-      Script: {instanceID: 2400}
+      Script: {instanceID: 2268}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2940}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 3262}
+      Script: {instanceID: 2944}
     - Class: 114
-      Script: {instanceID: 3284}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 4332}
+      Script: {instanceID: 3288}
     - Class: 114
-      Script: {instanceID: 4612}
+      Script: {instanceID: 4336}
     - Class: 114
-      Script: {instanceID: 5400}
+      Script: {instanceID: 4616}
     - Class: 114
-      Script: {instanceID: 6002}
+      Script: {instanceID: 5404}
     - Class: 114
-      Script: {instanceID: 6190}
+      Script: {instanceID: 6192}
     - Class: 114
-      Script: {instanceID: 6534}
+      Script: {instanceID: 6536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -288,7 +315,120 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/STICK ARENA.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1570}
+    - Class: 114
+      Script: {instanceID: 1614}
+    - Class: 114
+      Script: {instanceID: 1826}
+    - Class: 114
+      Script: {instanceID: 1854}
+    - Class: 114
+      Script: {instanceID: 1956}
+    - Class: 114
+      Script: {instanceID: 2404}
+    - Class: 114
+      Script: {instanceID: 2644}
+    - Class: 114
+      Script: {instanceID: 2726}
+    - Class: 114
+      Script: {instanceID: 2944}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 4908}
+    - Class: 114
+      Script: {instanceID: 5102}
+    - Class: 114
+      Script: {instanceID: 5328}
+    - Class: 114
+      Script: {instanceID: 5404}
+    - Class: 114
+      Script: {instanceID: 5414}
+    - Class: 114
+      Script: {instanceID: 5724}
+    - Class: 114
+      Script: {instanceID: 6192}
+    - Class: 114
+      Script: {instanceID: 6536}
+    - Class: 114
+      Script: {instanceID: 6560}
+    - Class: 114
+      Script: {instanceID: 6850}
+    - Class: 114
+      Script: {instanceID: 6988}
+    - Class: 114
+      Script: {instanceID: 7214}
+    - Class: 114
+      Script: {instanceID: 7484}
+    - Class: 114
+      Script: {instanceID: 7608}
+    - Class: 114
+      Script: {instanceID: 8284}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -609,7 +749,7 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: 363d022d97c84258fa7b23831327e3e9
+      Hash: 3281abc4cc143fca308ecb85b166cd8d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MenuManager
@@ -1095,12 +1235,6 @@ ScriptsOnlyBuild:
     className: CinemachineBrain
   - hash:
       serializedVersion: 2
-      Hash: 540882762544409cc4530e60db00e951
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
-  - hash:
-      serializedVersion: 2
       Hash: 560346f4cbb7006f1b0bb6c77805d7ec
     assemblyName: Cinemachine
     namespaceName: Cinemachine
@@ -1173,7 +1307,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 672428e3a8ac1a746abb983d9a3b7392
+      Hash: 13303ca83d577c1df8dbd7a541471c38
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerRaycast
@@ -1209,7 +1343,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 77e9379503ab0afa4bd4ea9f98bff650
+      Hash: 8f886380457eb83d6404e6048f3e68d1
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CameraLook
@@ -1517,4 +1651,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/MOTHERBOARD ARENA.unity
-  playerPath: C:/Users/User/Antivirus killer/Test/Antivirus killer.exe
+  - Assets/Scenes/STICK ARENA.unity
+  playerPath: C:/Users/User/Antivirus killer/Antivirus killer 1.1/Antivirus killer.exe

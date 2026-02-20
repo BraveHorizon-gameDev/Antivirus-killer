@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     public GameObject mainMenuPanel;
+    public GameObject worldSelectPanel;
     public GameObject creditsPanel;
 
     void Start()
@@ -13,7 +14,9 @@ public class MenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("MOTHERBOARD ARENA");
+        // SceneManager.LoadScene("MOTHERBOARD ARENA");
+        mainMenuPanel.SetActive(false);
+        worldSelectPanel.SetActive(true);
     }
 
     public void QuitGame()
@@ -31,6 +34,7 @@ public class MenuManager : MonoBehaviour
     public void BackToMenu()
     {
         creditsPanel.SetActive(value: false);
+        worldSelectPanel.SetActive(false);
         mainMenuPanel.SetActive(value: true);
     }
 
@@ -38,5 +42,15 @@ public class MenuManager : MonoBehaviour
     {
         mainMenuPanel.SetActive(value: true);
         creditsPanel.SetActive(value: false);
+    }
+
+    public void LoadMotherboard()
+    {
+        SceneManager.LoadScene("MOTHERBOARD ARENA");
+    }
+
+    public void LoadStick()
+    {
+        SceneManager.LoadScene("STICK ARENA");
     }
 }
