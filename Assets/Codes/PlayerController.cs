@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float maxHealth = 100f;
-    private float _health;
+    public float health;
     public float moveSpeed = 5f;
     public float gravity = -30f;
     public Transform cameraTransform;
@@ -14,9 +14,9 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        _health = maxHealth;
+        health = maxHealth;
         if (UIManager.Instance != null)
-            UIManager.Instance.UpdateHealth(current: _health,  max: maxHealth);
+            UIManager.Instance.UpdateHealth(current: health,  max: maxHealth);
 
         _controller = GetComponent<CharacterController>();
         _velocity = Vector3.zero;
@@ -57,16 +57,16 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        _health -= damage;
+        health -= damage;
         
         if (UIManager.Instance != null)
-            UIManager.Instance.UpdateHealth(current: _health, max: maxHealth);
+            UIManager.Instance.UpdateHealth(current: health, max: maxHealth);
         
         // Debug.Log(message: "Health: " + health);
 
-        if (_health <= 0f)
+        if (health <= 0f)
         {
-            _health = 0f;
+            health = 0f;
             UIManager.Instance.ShowGameOver();
             _controller.enabled = false;
             
@@ -79,10 +79,11 @@ public class PlayerController : MonoBehaviour
         }
     }
     
-    /*
-    public void Heal(float healAmount)
+    public void Heal(int amount)
     {
-        health += healAmount;
+        if (health <= 0)
+            return;
+        health += amount;
         if (health > maxHealth)
             health = maxHealth;
         
@@ -91,5 +92,4 @@ public class PlayerController : MonoBehaviour
         
         Debug.Log(message: "Health: " + health);
     }
-    */
 }

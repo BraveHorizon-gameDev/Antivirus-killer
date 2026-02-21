@@ -1,9 +1,12 @@
-
 using UnityEngine;
 
 public class Virus : MonoBehaviour
 {
     public float health = 30f;
+
+    [SerializeField] private GameObject healPrefab;
+    [SerializeField, Range(0f, 1f)] private float healDropChance = 0.9f;
+
     private bool _isDead;
     VirusDeathExplosion _explosion;
 
@@ -33,8 +36,13 @@ public class Virus : MonoBehaviour
         if (_explosion)
             _explosion.Explode();
 
+        if (healPrefab != null && Random.value <= healDropChance)
+        {
+            Instantiate(healPrefab, transform.position, Quaternion.identity);
+        }
+
         WaveManager.Instance?.EnemyDied();
 
-        Destroy(obj: gameObject);
+        Destroy(gameObject);
     }
 }

@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.Antiviruskiller"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="36" />
+10-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-54
+19-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:19-51
+20    <uses-feature
+20-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-11:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-55
+22        android:required="false" />
+22-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-33
+23    <uses-feature
+23-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-14:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-52
+25        android:required="false" />
+25-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-33
+26    <uses-feature
+26-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-17:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-63
+28        android:required="false" />
+28-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-33
+29    <uses-feature
+29-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:5-20:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-72
+31        android:required="false" />
+31-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-33
+32
+33    <application
+33-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+34        android:enableOnBackInvokedCallback="true"
+34-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-51
+35        android:extractNativeLibs="true"
+35-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-41
+36        android:icon="@mipmap/app_icon"
+36-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+37        android:label="@string/app_name" >
+37-->C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+38        <meta-data
+38-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-27:33
+39            android:name="unity.splash-mode"
+39-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-45
+40            android:value="0" />
+40-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-30
+41        <meta-data
+41-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-30:36
+42            android:name="unity.splash-enable"
+42-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-47
+43            android:value="True" />
+43-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-33
+44        <meta-data
+44-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-33:36
+45            android:name="unity.launch-fullscreen"
+45-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-51
+46            android:value="True" />
+46-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-33
+47        <meta-data
+47-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-36:36
+48            android:name="unity.render-outside-safearea"
+48-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-57
+49            android:value="True" />
+49-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-33
+50        <meta-data
+50-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-39:50
+51            android:name="notch.config"
+51-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40
+52            android:value="portrait|landscape" />
+52-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-47
+53        <meta-data
+53-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-42:36
+54            android:name="unity.auto-report-fully-drawn"
+54-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-57
+55            android:value="true" />
+55-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-33
+56
+57        <activity
+57-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-65:20
+58            android:name="com.unity3d.player.UnityPlayerActivity"
+58-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-66
+59            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+59-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-194
+60            android:exported="true"
+60-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-36
+61            android:hardwareAccelerated="false"
+61-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-48
+62            android:launchMode="singleTask"
+62-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-44
+63            android:resizeableActivity="false"
+63-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-47
+64            android:screenOrientation="fullUser"
+64-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-49
+65            android:theme="@style/UnityThemeSelector" >
+65-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-54
+66            <intent-filter>
+66-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-57:29
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:17-77
+67-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:27-74
+68
+69                <action android:name="android.intent.action.MAIN" />
+69-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:17-69
+69-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:25-66
+70            </intent-filter>
+71
+72            <meta-data
+72-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-61:40
+73                android:name="unityplayer.UnityActivity"
+73-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:17-57
+74                android:value="true" />
+74-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:17-37
+75            <meta-data
+75-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:13-64:40
+76                android:name="notch_support"
+76-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:17-45
+77                android:value="true" />
+77-->[:unityLibrary] C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-37
+78        </activity>
+79    </application>
+80
+81</manifest>

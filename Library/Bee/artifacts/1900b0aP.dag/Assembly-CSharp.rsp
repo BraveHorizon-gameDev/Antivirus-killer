@@ -314,6 +314,7 @@
 "Assets/Codes/CameraShake.cs"
 "Assets/Codes/FitBoxColliderToMesh.cs"
 "Assets/Codes/GameOverButtons.cs"
+"Assets/Codes/HealPickup.cs"
 "Assets/Codes/HealthBarUI.cs"
 "Assets/Codes/MenuManager.cs"
 "Assets/Codes/PauseManager.cs"

@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - CameraOffset
     - CameraShake
     - GameOverButtons
+    - HealPickup
     - HealthBarUI
     - MenuManager
     - PauseManager
@@ -175,57 +176,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 16726}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 16938}
     - Class: 114
-      Script: {instanceID: 1826}
+      Script: {instanceID: 16966}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 17068}
     - Class: 114
-      Script: {instanceID: 1956}
+      Script: {instanceID: 17516}
     - Class: 114
-      Script: {instanceID: 2404}
+      Script: {instanceID: 17756}
     - Class: 114
-      Script: {instanceID: 2644}
+      Script: {instanceID: 17838}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 18056}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 18378}
     - Class: 114
-      Script: {instanceID: 3266}
+      Script: {instanceID: 20020}
     - Class: 114
-      Script: {instanceID: 4908}
+      Script: {instanceID: 20214}
     - Class: 114
-      Script: {instanceID: 5102}
+      Script: {instanceID: 20440}
     - Class: 114
-      Script: {instanceID: 5328}
+      Script: {instanceID: 20516}
     - Class: 114
-      Script: {instanceID: 5404}
+      Script: {instanceID: 20526}
     - Class: 114
-      Script: {instanceID: 5414}
+      Script: {instanceID: 20836}
     - Class: 114
-      Script: {instanceID: 5724}
+      Script: {instanceID: 21118}
     - Class: 114
-      Script: {instanceID: 6192}
+      Script: {instanceID: 21306}
     - Class: 114
-      Script: {instanceID: 6536}
+      Script: {instanceID: 21650}
     - Class: 114
-      Script: {instanceID: 6560}
+      Script: {instanceID: 21674}
     - Class: 114
-      Script: {instanceID: 6850}
+      Script: {instanceID: 21964}
     - Class: 114
-      Script: {instanceID: 6988}
+      Script: {instanceID: 22102}
     - Class: 114
-      Script: {instanceID: 7214}
+      Script: {instanceID: 22328}
     - Class: 114
-      Script: {instanceID: 7484}
+      Script: {instanceID: 22598}
     - Class: 114
-      Script: {instanceID: 7608}
+      Script: {instanceID: 22722}
     - Class: 114
-      Script: {instanceID: 8284}
+      Script: {instanceID: 23398}
     - Class: 114
-      Script: {instanceID: 24368}
+      Script: {instanceID: 24592}
+    - Class: 114
+      Script: {instanceID: 25392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -274,31 +277,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 16726}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 17380}
     - Class: 114
-      Script: {instanceID: 2268}
+      Script: {instanceID: 17516}
     - Class: 114
-      Script: {instanceID: 2404}
+      Script: {instanceID: 17838}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 18056}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 18378}
     - Class: 114
-      Script: {instanceID: 3266}
+      Script: {instanceID: 18400}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 19448}
     - Class: 114
-      Script: {instanceID: 4336}
+      Script: {instanceID: 19728}
     - Class: 114
-      Script: {instanceID: 4616}
+      Script: {instanceID: 20516}
     - Class: 114
-      Script: {instanceID: 5404}
+      Script: {instanceID: 21118}
     - Class: 114
-      Script: {instanceID: 6192}
+      Script: {instanceID: 21306}
     - Class: 114
-      Script: {instanceID: 6536}
+      Script: {instanceID: 21650}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -351,55 +354,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 16726}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 16938}
     - Class: 114
-      Script: {instanceID: 1826}
+      Script: {instanceID: 16966}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 17068}
     - Class: 114
-      Script: {instanceID: 1956}
+      Script: {instanceID: 17516}
     - Class: 114
-      Script: {instanceID: 2404}
+      Script: {instanceID: 17756}
     - Class: 114
-      Script: {instanceID: 2644}
+      Script: {instanceID: 17838}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 18056}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 18378}
     - Class: 114
-      Script: {instanceID: 3266}
+      Script: {instanceID: 20020}
     - Class: 114
-      Script: {instanceID: 4908}
+      Script: {instanceID: 20214}
     - Class: 114
-      Script: {instanceID: 5102}
+      Script: {instanceID: 20440}
     - Class: 114
-      Script: {instanceID: 5328}
+      Script: {instanceID: 20516}
     - Class: 114
-      Script: {instanceID: 5404}
+      Script: {instanceID: 20526}
     - Class: 114
-      Script: {instanceID: 5414}
+      Script: {instanceID: 20836}
     - Class: 114
-      Script: {instanceID: 5724}
+      Script: {instanceID: 21118}
     - Class: 114
-      Script: {instanceID: 6192}
+      Script: {instanceID: 21306}
     - Class: 114
-      Script: {instanceID: 6536}
+      Script: {instanceID: 21650}
     - Class: 114
-      Script: {instanceID: 6560}
+      Script: {instanceID: 21674}
     - Class: 114
-      Script: {instanceID: 6850}
+      Script: {instanceID: 21964}
     - Class: 114
-      Script: {instanceID: 6988}
+      Script: {instanceID: 22102}
     - Class: 114
-      Script: {instanceID: 7214}
+      Script: {instanceID: 22328}
     - Class: 114
-      Script: {instanceID: 7484}
+      Script: {instanceID: 22598}
     - Class: 114
-      Script: {instanceID: 7608}
+      Script: {instanceID: 22722}
     - Class: 114
-      Script: {instanceID: 8284}
+      Script: {instanceID: 23398}
+    - Class: 114
+      Script: {instanceID: 25392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -423,12 +428,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 540882762544409cc4530e60db00e951
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -491,7 +490,7 @@ ScriptsOnlyBuild:
     className: CinemachineTriggerAction
   - hash:
       serializedVersion: 2
-      Hash: 4015386d7324c91a7a7b634a653352c1
+      Hash: 07da45e51052b0140f66ccd040151876
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Virus
@@ -527,7 +526,7 @@ ScriptsOnlyBuild:
     className: CinemachineCameraOffset
   - hash:
       serializedVersion: 2
-      Hash: fa8e82efcf0ddbc449a3e98b43fb3833
+      Hash: 99b93b8da60d631a803d6b0993f419e0
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -1235,6 +1234,12 @@ ScriptsOnlyBuild:
     className: CinemachineBrain
   - hash:
       serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
       Hash: 560346f4cbb7006f1b0bb6c77805d7ec
     assemblyName: Cinemachine
     namespaceName: Cinemachine
@@ -1647,9 +1652,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bebc247c34e6a1c113c0c507e904e368
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HealPickup
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/MOTHERBOARD ARENA.unity
   - Assets/Scenes/STICK ARENA.unity
-  playerPath: C:/Users/User/Antivirus killer/Antivirus killer 1.1/Antivirus killer.exe
+  playerPath: C:/Users/User/Antivirus killer/Antivirus killer 1.2/Antivirus killer.exe

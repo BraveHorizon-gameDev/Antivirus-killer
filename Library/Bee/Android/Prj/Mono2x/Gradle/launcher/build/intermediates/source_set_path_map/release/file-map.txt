@@ -1,0 +1,9 @@
+com.DefaultCompany.Antiviruskiller.launcher-pngs-0 C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
+com.DefaultCompany.Antiviruskiller.launcher-resValues-1 C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
+com.DefaultCompany.Antiviruskiller.launcher-rs-2 C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
+com.DefaultCompany.Antiviruskiller.launcher-mergeReleaseResources-3 C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.DefaultCompany.Antiviruskiller.launcher-mergeReleaseResources-4 C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.DefaultCompany.Antiviruskiller.launcher-merged_res-5 C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
+com.DefaultCompany.Antiviruskiller.launcher-main-6 C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
+com.DefaultCompany.Antiviruskiller.launcher-release-7 C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
+com.DefaultCompany.Antiviruskiller.launcher-packaged_res-8 C:\Users\User\Antivirus killer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release
