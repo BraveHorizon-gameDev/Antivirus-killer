@@ -15,6 +15,7 @@ public class WaveManager : MonoBehaviour
     [Header(header: "Waves")]
     public int currentWave = 1;
     public int baseEnemies = 3;
+    public bool healDropedThisWave;
 
     private int aliveEnemies;
     private bool spawning = false;
@@ -35,6 +36,8 @@ public class WaveManager : MonoBehaviour
 
     IEnumerator StartWave()
     {
+        healDropedThisWave = false;
+        
         spawning = true;
 
         int count = baseEnemies + currentWave;

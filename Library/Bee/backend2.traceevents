@@ -1,288 +1,308 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1771704630072926, "dur":13112, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771704630086050, "dur":132, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771704630086226, "dur":432, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771704630086763, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":0, "ts":1771704630087023, "dur":123, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1771704630087205, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":0, "ts":1771704630087318, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":0, "ts":1771704630087513, "dur":113, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":0, "ts":1771704630087704, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1771704630087918, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630088081, "dur":106, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630088219, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630090218, "dur":3536, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630093814, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630093987, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630094157, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630094292, "dur":100, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630094455, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630094596, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630094765, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":0, "ts":1771704630094908, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":0, "ts":1771704630095051, "dur":101, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1771704630095185, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1771704630095328, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1771704630095496, "dur":119, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1771704630095620, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1771704630095761, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":0, "ts":1771704630086689, "dur":9305, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771704630095996, "dur":603955, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771704630699953, "dur":300, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771704630700253, "dur":99, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771704630700353, "dur":99, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771704630700623, "dur":2513, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1771704630087033, "dur":9051, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771704630096088, "dur":7026, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771704630108615, "dur":1355, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1771704630109976, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1771704630110260, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1771704630110410, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1771704630111004, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771704630111151, "dur":247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771704630111400, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771704630111715, "dur":502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771704630112219, "dur":879, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771704630113101, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771704630113299, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771704630113594, "dur":327, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771704630113980, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerd8b97914-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1771704630109974, "dur":4212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1771704630114941, "dur":178928, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1771704630298880, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1771704630298879, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1771704630299032, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1771704630300081, "dur":399896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771704630087703, "dur":8570, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771704630096278, "dur":1210, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771704630097488, "dur":5683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771704630103172, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1771704630103471, "dur":88, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771704630108583, "dur":30207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1771704630138863, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1771704630139511, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1771704630142739, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1771704630142901, "dur":429, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771704630143890, "dur":22897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1771704630166895, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630171167, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630174748, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630178330, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630181615, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630184815, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630188374, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630192005, "dur":3295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630195416, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630198431, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630201964, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771704630205445, "dur":5421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1771704630211044, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1771704630214606, "dur":8094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1771704630222764, "dur":477203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771704630087367, "dur":8818, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771704630096190, "dur":1122, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771704630097313, "dur":5881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771704630103199, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1771704630109487, "dur":24695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1771704630134251, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1771704630134767, "dur":4630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1771704630139465, "dur":202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630139463, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630140240, "dur":3617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630144347, "dur":10016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630154475, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630161062, "dur":207, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771704630157603, "dur":3694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630161475, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630164127, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630167377, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630170784, "dur":4510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630175441, "dur":3952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630179535, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630182294, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630185410, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630188960, "dur":3754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630192815, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630195682, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630198989, "dur":3504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630202652, "dur":3354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771704630206170, "dur":16321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1771704630222543, "dur":477410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771704630087213, "dur":8922, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771704630096140, "dur":1188, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771704630097328, "dur":5812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771704630103157, "dur":741, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771704630110661, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/app.info" }}
-,{ "pid":12345, "tid":4, "ts":1771704630112760, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1771704630112970, "dur":586888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1771704630087550, "dur":8708, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771704630096263, "dur":1250, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771704630097513, "dur":5656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771704630103182, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1771704630103170, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1771704630108610, "dur":28388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1771704630137156, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1771704630137149, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1771704630137424, "dur":29732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1771704630167307, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630171304, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630174974, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630178517, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630181768, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630184821, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630188260, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630191476, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630194900, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630197183, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630199902, "dur":3413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630203426, "dur":3620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771704630207170, "dur":15285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1771704630222512, "dur":477434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771704630087871, "dur":8418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771704630096294, "dur":1289, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771704630097583, "dur":5561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771704630103170, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1771704630103146, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1771704630104005, "dur":5272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1771704630109340, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1771704630110343, "dur":26541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1771704630136956, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1771704630137215, "dur":22904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1771704630160224, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630162459, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630165306, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630169424, "dur":3529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630173024, "dur":3487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630176614, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630180905, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630184160, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630186862, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630193958, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771704630190180, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630194162, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630197258, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630200327, "dur":3968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630204390, "dur":3558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771704630208043, "dur":4141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1771704630212285, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/level2.resS" }}
-,{ "pid":12345, "tid":6, "ts":1771704630215030, "dur":8365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1771704630223468, "dur":476480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771704630088031, "dur":8318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771704630096354, "dur":1212, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771704630097567, "dur":5607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771704630103182, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1771704630108170, "dur":591603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1771704630699831, "dur":128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771704630088192, "dur":8172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771704630096370, "dur":1143, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771704630097514, "dur":5654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771704630103168, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":8, "ts":1771704630106632, "dur":34754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":8, "ts":1771704630141461, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630141457, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630141784, "dur":14624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630156511, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630159373, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630164206, "dur":248, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771704630161862, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630164613, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630172336, "dur":209, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771704630168705, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630172652, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630176155, "dur":3826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630180088, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630183476, "dur":4785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630188382, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630192022, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630195450, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630198601, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630201830, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630205148, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630205145, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630205320, "dur":38283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771704630243653, "dur":456317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771704630088497, "dur":7899, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771704630096397, "dur":6769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771704630103167, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":9, "ts":1771704630106677, "dur":4013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":9, "ts":1771704630110790, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1771704630110788, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1771704630111131, "dur":26744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1771704630137973, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1771704630138147, "dur":561613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1771704630699821, "dur":147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771704630088351, "dur":8029, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771704630096385, "dur":802, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771704630097187, "dur":6022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771704630103230, "dur":437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":10, "ts":1771704630103209, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1771704630110372, "dur":31387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1771704630141828, "dur":1054, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":10, "ts":1771704630141827, "dur":1056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/Antivirus killer.exe" }}
-,{ "pid":12345, "tid":10, "ts":1771704630142923, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer.exe" }}
-,{ "pid":12345, "tid":10, "ts":1771704630150629, "dur":85, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771704630144949, "dur":5785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630155447, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771704630150869, "dur":4660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630155702, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630161038, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771704630157945, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630161301, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630163811, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630168412, "dur":4990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630173490, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630176926, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630180733, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630183555, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630186284, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630189440, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630193558, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630197178, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630200184, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630203526, "dur":3611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771704630207262, "dur":6522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1771704630213866, "dur":5520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/level2" }}
-,{ "pid":12345, "tid":10, "ts":1771704630219489, "dur":4336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":10, "ts":1771704630223870, "dur":476092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771704630088661, "dur":7751, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771704630096413, "dur":6759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771704630103192, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1771704630103173, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1771704630108586, "dur":27235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1771704630135895, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":11, "ts":1771704630135892, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1771704630136709, "dur":30498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1771704630172064, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771704630167337, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630172304, "dur":105, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771704630172472, "dur":3187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630175766, "dur":3641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630179507, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630182796, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630185529, "dur":3546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630189188, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630193264, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630196503, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630199801, "dur":5317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771704630205247, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":11, "ts":1771704630207531, "dur":4336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":11, "ts":1771704630211950, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1771704630214393, "dur":7723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/level1" }}
-,{ "pid":12345, "tid":11, "ts":1771704630222283, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1771704630224470, "dur":475505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771704630088966, "dur":7462, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771704630096429, "dur":6717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771704630103171, "dur":239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1771704630103147, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1771704630193726, "dur":415, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771704630108627, "dur":85529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1771704630194263, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771704630197763, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771704630201555, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771704630204837, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771704630207469, "dur":4363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":12, "ts":1771704630211917, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1771704630215136, "dur":9399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.2/Antivirus killer_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1771704630224575, "dur":475390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771704630706223, "dur":1337, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1771758626107203, "dur":14927, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1771758626122138, "dur":153, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1771758626122340, "dur":519, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1771758626122998, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1771758626123148, "dur":119, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/level2" }}
+,{ "pid":12345, "tid":0, "ts":1771758626123355, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1771758626123462, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1771758626123603, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1771758626123755, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":0, "ts":1771758626123976, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":0, "ts":1771758626124106, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626124228, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626124355, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626124541, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626124752, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626124835, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626124970, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626125162, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626125341, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626125659, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626125830, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626126699, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626126917, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626127139, "dur":112, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626127283, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626127340, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626127677, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626128323, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1771758626128916, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1771758626129139, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1771758626122889, "dur":6842, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1771758626129733, "dur":558769, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1771758626688503, "dur":295, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1771758626688798, "dur":65, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1771758626688864, "dur":212, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1771758626689269, "dur":2702, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1771758626123427, "dur":6343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1771758626129774, "dur":984, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1771758626130759, "dur":5610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1771758626136369, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1771758626145042, "dur":20917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1771758626166067, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626166064, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626166620, "dur":4076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626171223, "dur":4801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626176154, "dur":4800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626181052, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626183538, "dur":71, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1771758626183613, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626187091, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626189836, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626193963, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626197365, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626200596, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626204123, "dur":3898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626208114, "dur":4571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626212783, "dur":3640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626216557, "dur":3765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626220423, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626223473, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626227411, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626230647, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1771758626234206, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1771758626236015, "dur":23008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1771758626259087, "dur":429448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1771758626123923, "dur":5917, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1771758626129845, "dur":1206, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1771758626131051, "dur":5312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1771758626136365, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1771758626142751, "dur":94, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1771758626146414, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1771758626142860, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1771758626146743, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1771758626146741, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1771758626146982, "dur":23234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1771758626170281, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1771758626170850, "dur":22299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1771758626193266, "dur":4932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626201819, "dur":142, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1771758626198291, "dur":3684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626202116, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626205887, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626209404, "dur":5415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626214935, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626218580, "dur":4490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626223205, "dur":4576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626227873, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626230869, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1771758626234294, "dur":5839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1771758626240239, "dur":85, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1771758626240455, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1771758626242658, "dur":71, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1771758626242732, "dur":3773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1771758626246613, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1771758626250859, "dur":437634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1771758626124203, "dur":5666, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1771758626129874, "dur":1166, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1771758626131040, "dur":5331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1771758626136378, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1771758626141696, "dur":537802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1771758626679564, "dur":8946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1771758626123356, "dur":6401, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1771758626129761, "dur":1103, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1771758626130865, "dur":5470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1771758626136348, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1771758626137682, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1771758626141157, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1771758626141392, "dur":20041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1771758626161505, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1771758626161502, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1771758626162086, "dur":25547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1771758626188033, "dur":5607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626196992, "dur":121, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1771758626193756, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626197361, "dur":7556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626205065, "dur":6948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626212276, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626216349, "dur":4688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626221569, "dur":342, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1771758626221931, "dur":3634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626225694, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626232657, "dur":129, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1771758626229301, "dur":3544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626233012, "dur":4739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1771758626237878, "dur":4220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1771758626242224, "dur":5957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1771758626248449, "dur":9193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1771758626257708, "dur":430823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1771758626123235, "dur":6510, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1771758626129750, "dur":6562, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1771758626140315, "dur":1002, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":5, "ts":1771758626141323, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1771758626141454, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1771758626141693, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1771758626142242, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1771758626142408, "dur":258, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1771758626142670, "dur":429, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1771758626143101, "dur":718, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1771758626143821, "dur":1626, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1771758626145452, "dur":1735, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1771758626147190, "dur":685, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1771758626147878, "dur":690, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\User\\Antivirus killer\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1771758626148655, "dur":4188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player332c9139-inputdata.json" }}
+,{ "pid":12345, "tid":5, "ts":1771758626141321, "dur":11752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1771758626153532, "dur":2282, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1771758626155822, "dur":168, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1771758626156478, "dur":193068, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1771758626354496, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1771758626354495, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1771758626354650, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1771758626355875, "dur":332647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1771758626123779, "dur":6050, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1771758626129833, "dur":1247, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1771758626131081, "dur":5318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1771758626136415, "dur":328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1771758626136400, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1771758626140978, "dur":23813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1771758626165014, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1771758626165390, "dur":523002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1771758626123605, "dur":6212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1771758626129822, "dur":1262, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1771758626131085, "dur":5258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1771758626136367, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1771758626136344, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1771758626139649, "dur":75040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1771758626214809, "dur":3148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1771758626218173, "dur":4154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1771758626225824, "dur":515, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1771758626222442, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1771758626226618, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1771758626233580, "dur":184, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1771758626230130, "dur":3693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1771758626233902, "dur":330, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1771758626233896, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1771758626234251, "dur":39302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1771758626273614, "dur":414927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626124069, "dur":5785, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626129859, "dur":1091, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626130951, "dur":5414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626136366, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1771758626136606, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626139324, "dur":26171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1771758626165603, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1771758626166538, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1771758626170025, "dur":929, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":8, "ts":1771758626170024, "dur":931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/Antivirus killer.exe" }}
+,{ "pid":12345, "tid":8, "ts":1771758626171006, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer.exe" }}
+,{ "pid":12345, "tid":8, "ts":1771758626173089, "dur":3339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626176506, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626178492, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626180257, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626182216, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626189768, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626186774, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626189992, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626196465, "dur":628, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626193100, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626197658, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626197720, "dur":3486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626201341, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626204019, "dur":3724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626207835, "dur":4013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626212015, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626217884, "dur":91, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626214944, "dur":3050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626218160, "dur":4317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626226364, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626222559, "dur":3882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626226598, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626229763, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626233139, "dur":509, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1771758626233651, "dur":3430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1771758626237169, "dur":5547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1771758626242806, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1771758626245986, "dur":4120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1771758626250234, "dur":5438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1771758626255734, "dur":432761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1771758626124337, "dur":5546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1771758626129888, "dur":866, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1771758626130755, "dur":5587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1771758626136368, "dur":307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1771758626136343, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1771758626144004, "dur":5880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1771758626149943, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1771758626150171, "dur":529420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1771758626679634, "dur":8873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1771758626124462, "dur":5435, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1771758626129898, "dur":6488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1771758626136390, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1771758626141493, "dur":17088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1771758626158660, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1771758626159464, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1771758626163091, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1771758626163088, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1771758626187415, "dur":99, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1771758626163399, "dur":24132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1771758626187943, "dur":4391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626192424, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626194782, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626198007, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626206920, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1771758626201794, "dur":5227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626207146, "dur":5351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626217541, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1771758626212587, "dur":5043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626217877, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626222198, "dur":4366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626226705, "dur":100, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1771758626226808, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626233542, "dur":203, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1771758626229778, "dur":4034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626233922, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1771758626236680, "dur":6990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1771758626243796, "dur":6453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1771758626250354, "dur":5195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1771758626255612, "dur":432912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1771758626124558, "dur":5354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1771758626129913, "dur":6456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1771758626136390, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1771758626136370, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1771758626139923, "dur":23036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1771758626163111, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1771758626163401, "dur":19486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1771758626182986, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626186777, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626189459, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626192682, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626195653, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626198905, "dur":3149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626202136, "dur":4399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626206637, "dur":4763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626211500, "dur":5709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626220868, "dur":96, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1771758626217407, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626221113, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626224294, "dur":4113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626228537, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626232271, "dur":4304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1771758626236673, "dur":9821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1771758626256430, "dur":88, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1771758626247068, "dur":9474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1771758626256631, "dur":431903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1771758626124675, "dur":5252, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1771758626129928, "dur":6439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1771758626136394, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1771758626136368, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1771758626142249, "dur":24128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1771758626166443, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626166436, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Antivirus killer 1.3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626166808, "dur":25522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626192529, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626196014, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626198934, "dur":4370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626203425, "dur":4811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626208346, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626212691, "dur":4591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626221737, "dur":197, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1771758626217393, "dur":4555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626222045, "dur":3634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626225781, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626233073, "dur":563, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1771758626228829, "dur":4823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626233827, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1771758626236251, "dur":18040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Antivirus killer 1.3/Antivirus killer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1771758626254374, "dur":434123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1771758626695643, "dur":1861, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

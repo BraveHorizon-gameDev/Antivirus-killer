@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class HealPickup : MonoBehaviour
 {
-    public int healAmount = 10;
+    public float healAmount = 10;
     public float rotationSpeed = 120f;
     public float lifetime = 10f;
 

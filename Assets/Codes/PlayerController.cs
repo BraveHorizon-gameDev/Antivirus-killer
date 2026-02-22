@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     public float maxHealth = 100f;
     public float health;
     public float moveSpeed = 5f;
+    public float jumpForce = 6f;
     public float gravity = -30f;
     public Transform cameraTransform;
 
@@ -49,6 +50,11 @@ public class PlayerController : MonoBehaviour
             _velocity.y = -2f;
         }
 
+        if (_controller.isGrounded && Input.GetKeyDown(key: KeyCode.Space))
+        {
+            _velocity.y = jumpForce;
+        }
+
         _velocity.y += gravity * Time.deltaTime;
 
         Vector3 finalMove = (move * moveSpeed + Vector3.up * _velocity.y) * Time.deltaTime;
@@ -72,14 +78,13 @@ public class PlayerController : MonoBehaviour
             
             cameraTransform.GetComponent<CameraLook>().enabled = false;
             FindObjectOfType<PlayerRaycast>().canShoot  = false;
-            // playerCamera.GetComponent<PlayerRaycast>().enabled = false;
             
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
     }
     
-    public void Heal(int amount)
+    public void Heal(float amount)
     {
         if (health <= 0)
             return;
@@ -90,6 +95,6 @@ public class PlayerController : MonoBehaviour
         if (UIManager.Instance != null)
             UIManager.Instance.UpdateHealth(current: health, max: maxHealth);
         
-        Debug.Log(message: "Health: " + health);
+        // Debug.Log(message: "Health: " + health);
     }
 }

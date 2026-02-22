@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   healPrefab: {fileID: 5005612070926206368, guid: 98b0bac3a79a59e4b90b32ced64842ae, type: 3}
-  healDropChance: 0.2
+  healDropChance: 0.19
 --- !u!114 &1736096644931129046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1304,7 +1304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b17ec2fc3df4c8478505f7ac58573ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 6.7
   gravity: -25
   stopDistance: 1
 --- !u!143 &2234339295880237706

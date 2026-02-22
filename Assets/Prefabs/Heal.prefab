@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healAmount: 5
   rotationSpeed: 120
-  lifetime: 10
+  lifetime: 6.7
 --- !u!1 &9220628605773428092
 GameObject:
   m_ObjectHideFlags: 0

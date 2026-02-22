@@ -572,7 +572,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  health: 0
   moveSpeed: 17
+  jumpForce: 20
   gravity: -30
   cameraTransform: {fileID: 2270601520818563226}
 --- !u!143 &7626576783151509701
@@ -594,7 +596,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 6.04
+  m_Height: 5.73
   m_Radius: 1.12
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -613,7 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37398bdf052fb9949b7f446e31ff51c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageRadius: 3.01
+  damageRadius: 3.4
   damageCooldown: 1
   damageAmount: 10
 --- !u!1 &4958323853968983377
@@ -726,7 +728,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60ae2c813bd44cd469f7b13eaa847cd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 367
   playerBody: {fileID: 140475658906552317}
   minPitch: -89
   maxPitch: 89
@@ -745,7 +746,6 @@ MonoBehaviour:
   cameraShake: {fileID: 2846344947753693793}
   shotLine: {fileID: 744428640352105921}
   lineDuration: 0.05
-  rayDistance: 50
   virusLayer:
     serializedVersion: 2
     m_Bits: 64

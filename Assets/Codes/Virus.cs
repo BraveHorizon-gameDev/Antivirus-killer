@@ -36,9 +36,10 @@ public class Virus : MonoBehaviour
         if (_explosion)
             _explosion.Explode();
 
-        if (healPrefab != null && Random.value <= healDropChance)
+        if (!WaveManager.Instance.healDropedThisWave && healPrefab != null && Random.value < healDropChance)
         {
             Instantiate(healPrefab, transform.position, Quaternion.identity);
+            WaveManager.Instance.healDropedThisWave = true;
         }
 
         WaveManager.Instance?.EnemyDied();
