@@ -28,6 +28,7 @@ One mistake can end everything.
 | Mouse | Look |
 | Left Click | Shoot |
 | ESC | Pause |
+| Space | | Jump |
 
 ---
 
@@ -64,5 +65,5 @@ Game Design, Programming and Integration — **Brave Horizon**
 
 ## Status
 
-Version 1.2 — Released  
+Version 1.3 — Released  
 Future updates may include new environments, enemies, and gameplay improvements.
